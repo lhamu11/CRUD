@@ -17,9 +17,8 @@ console.log(userDetails);
 
 
 //Use the destructuring syntax to store only the values of name, jobTitle and work properties to respective variables
-const userActivity3 = { name: "Rahul", jobTitle: "JS Instructor@almabetter.com", work: "rahul@microsoft.com", region: "Hyderabad", };
-let {name, jobTitle, work} = userActivity3; 
- //console log all 3 variables together
 
-console.log(name + " " + jobTitle + " " + work);
+const userActivity3 = { name: "Lhamu", jobTitle: "JS Instructor@almabetter.com", work: "lhamu@microsoft.com”, region: "Hyderabad" }
+const { name, jobTitle, work } = userActivity3;
+console.log(name, jobTitle, work);
 //thank you for reading till last
